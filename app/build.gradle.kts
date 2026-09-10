@@ -52,6 +52,7 @@ dependencies {
     implementation("androidx.room:room-ktx:$roomVersion")
     ksp("androidx.room:room-compiler:$roomVersion")
 
-    implementation("com.baidu.lbsyun:BaiduMapSDK_Map:7.5.5")
-    implementation("com.baidu.lbsyun:BaiduMapSDK_Search:7.5.5")
+    // 百度地图 SDK
+    implementation("com.baidu.lbsyun:BaiduMapSDK_Map:7.5.4")
+    implementation("com.baidu.lbsyun:BaiduMapSDK_Search:7.5.4")
 }
